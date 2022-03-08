@@ -37,7 +37,7 @@ public class timer : MonoBehaviour
             TimerStarted = true;
         }
 
-        TimerStarted = true;
+        
         
 
         if (itsDead) {

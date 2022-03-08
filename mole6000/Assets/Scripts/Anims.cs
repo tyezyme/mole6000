@@ -9,6 +9,8 @@ public class Anims : MonoBehaviour
     public Transform hammerPoint;
     public LayerMask enemyLayer;
 
+    int attackDamge = 1;
+
     void Start() {
 
     }
@@ -36,8 +38,8 @@ public class Anims : MonoBehaviour
 
         Collider[] hitEnemies = Physics.OverlapSphere(hammerPoint.position, attackRange, enemyLayer);
         foreach(Collider enemy in  hitEnemies) {
-            Debug.Log("We hit" + enemy.name);
-            Destroy(enemy);
+            enemy.GetComponent<enemy>().takeDamage(attackDamge);
+            Debug.Log("we hit " + enemy.name);
         }
 
         UnityEngine.Debug.Log("WHACK!");
