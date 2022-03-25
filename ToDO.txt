@@ -1,0 +1,5 @@
+Make another prefab of the mole, then use that for the arcadeMoleMachine, and make the rise animation play on start.
+Have the player be required to play whack a mole on it, then leave the arcade. Make a cutscene where the mole gets mad
+and wants revenge. Then the player starts player again (spawns at the door always) and finds that the machine doesn't
+work anymore. After that, the player goes to a room with buttons to fix the machines, but hears beeping and sees red lights
+He goes to the main arcade hall and sees the giant mole trying to attack him.

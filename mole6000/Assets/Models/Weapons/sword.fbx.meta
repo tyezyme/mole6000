@@ -1,29 +1,11 @@
 fileFormatVersion: 2
-guid: 783d2aac685f9664d8702e8d17c84ed1
+guid: 8bd4f821c77cf8e47951683e33cbd1f2
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
-      74: -9150367956549151049
-    second: MoleSkeleton|Attack
-  - first:
-      74: 6585610444935359627
-    second: MoleSkeleton|dead
-  - first:
-      74: 2458948716656708851
-    second: MoleSkeleton|hurt
-  - first:
-      74: 1544551380957817784
-    second: MoleSkeleton|hurt.001
-  - first:
-      74: -5154515323495435378
-    second: MoleSkeleton|Idle
-  - first:
-      74: 899640575368362055
-    second: MoleSkeleton|Rise
-  - first:
-      74: 1408027368687797861
-    second: MoleSkeleton|Walk
+      74: 1270692435163479934
+    second: Armature.001|ATTACK
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -115,7 +97,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
